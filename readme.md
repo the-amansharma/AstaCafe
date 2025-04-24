@@ -1,4 +1,4 @@
-# Fjord Café Website
+# Asta Café Website
 
 A minimal-but-elegant multipage website for a Nordic-inspired café with warm sunset peach accents.
 
