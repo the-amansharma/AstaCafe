@@ -1,0 +1,13 @@
+{
+    "functions": {
+      "assets/php/mailer.php": {
+        "runtime": "vercel-php@0.6.1"
+      }
+    },
+    "routes": [
+      { "src": "/assets/php/mailer.php", "dest": "/assets/php/mailer.php" },
+      { "handle": "filesystem" },
+      { "src": "/(.*)", "dest": "/index.html" }
+    ]
+  }
+  

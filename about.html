@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asta Café | About Us</title>
+    <meta name="description" content="Learn about our Nordic-inspired café and our story">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div class="theme-toggle">
+        <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </button>
+    </div> 
+
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="index.html">Asta Café</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="page-header">
+    <picture>
+        <!-- Mobile-specific crop -->
+        <source media="(max-width: 576px)" 
+                srcset="assets/img/page-header.jpg">
+        <!-- Default desktop image with srcset -->
+        <source srcset="assets/img/page-header.jpg 400w, 
+                        assets/img/page-header.jpg 800w, 
+                        assets/img/page-header.jpg 1200w, 
+                        assets/img/page-header.jpg 2000w"
+                sizes="100vw">
+        <!-- Fallback -->
+        <img src="assets/img/page-header.jpg" alt="Nordic café ambiance" class="page-header-img">
+    </picture>
+    <div class="container">
+        <h1 class="fade-in">Our Story</h1>
+        <p class="slide-up">The journey from Scandinavia to your neighborhood</p>
+    </div>
+</div>
+    </header>
+
+    <main>
+        <section class="about-intro">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image">
+    <img src="assets/img/begin.jpg" 
+         srcset="assets/img/begin.jpg 400w, 
+                 assets/img/begin.jpg 800w, 
+                 assets/img/begin.jpg 1200w" 
+         sizes="(max-width: 768px) 100vw, 50vw"
+         alt="Café founders standing in front of the counter" 
+         width="500" height="350" 
+         loading="lazy">
+</div>
+                    <div class="about-text">
+                        <h2>The Beginning</h2>
+                        <p>Asta Café was born from a simple idea: to create a space that embodies the Scandinavian concept of "hygge" — that feeling of coziness and contentment that comes from enjoying life's simple pleasures.</p>
+                        <p>Founded in 2018 by Emma and Lars, who after years of traveling throughout Norway, Sweden, and Denmark, wanted to bring the warmth and simplicity of Nordic café culture to their hometown.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="philosophy">
+            <div class="container">
+                <h2>Our Philosophy</h2>
+                <div class="philosophy-grid">
+                    <div class="philosophy-item">
+                        <h3>Simplicity</h3>
+                        <p>We believe in the beauty of simplicity — from our minimalist interior to our carefully curated menu. Every element has a purpose and a place.</p>
+                    </div>
+                    <div class="philosophy-item">
+                        <h3>Quality</h3>
+                        <p>We source the finest ingredients and work with local producers whenever possible. Our coffee beans are ethically sourced and roasted to perfection.</p>
+                    </div>
+                    <div class="philosophy-item">
+                        <h3>Community</h3>
+                        <p>Our café is more than just a place to grab coffee — it's a gathering space for the community, where connections are made and ideas are shared.</p>
+                    </div>
+                    <div class="philosophy-item">
+                        <h3>Sustainability</h3>
+                        <p>We're committed to minimizing our environmental footprint through compostable packaging, energy-efficient practices, and reducing waste.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <h2>Meet Our Team</h2>
+                <div class="team-grid">
+    <div class="team-member">
+        <img src="assets/img/begin.jpg" 
+             srcset="assets/img/begin.jpg 200w, 
+                     assets/img/begin.jpg 400w, 
+                     assets/img/begin.jpg 600w" 
+             sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 300px"
+             alt="Emma, co-founder and head baker" 
+             width="300" height="300" 
+             loading="lazy">
+        <h3>Emma</h3>
+        <p>Co-founder & Head Baker</p>
+    </div>
+    <div class="team-member">
+        <img src="assets/img/team-2.jpg" 
+             srcset="assets/img/team-2.jpg 200w, 
+                     assets/img/team-2.jpg 400w, 
+                     assets/img/team-2.jpg 600w" 
+             sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 300px"
+             alt="Lars, co-founder and coffee specialist" 
+             width="300" height="300" 
+             loading="lazy">
+        <h3>Lars</h3>
+        <p>Co-founder & Coffee Specialist</p>
+    </div>
+    <div class="team-member">
+        <img src="assets/img/team-3.jpg" 
+             srcset="assets/img/team-3.jpg 200w, 
+                     assets/img/team-3.jpg 400w, 
+                     assets/img/team-3.jpg 600w" 
+             sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 300px"
+             alt="Sofia, café manager" 
+             width="300" height="300" 
+             loading="lazy">
+        <h3>Sofia</h3>
+        <p>Café Manager</p>
+    </div>
+</div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Come Experience It Yourself</h2>
+                <p>We'd love to welcome you to our little corner of Scandinavia in the heart of the city.</p>
+                <a href="contact.html" class="btn primary-btn">Find Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Asta Café</h3>
+                    <p>Where warmth meets minimalism</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Visit Us</h4>
+                    <address>
+                        123 Serene Street<br>
+                        Cityville, CV 10101<br>
+                        <a href="tel:+1234567890">(555) 123-4567</a><br>
+                        <a href="mailto:hello@Astacafe.com">hello@Astacafe.com</a>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Asta Café. All rights reserved.</p>
+                <p>Thanks for dropping by!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

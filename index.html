@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asta Café | Home</title>
+    <meta name="description" content="A cozy Nordic café with a warm atmosphere">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="theme-toggle">
+        <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </button>
+    </div> 
+
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="index.html">Asta Café</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero" id="parallax-hero">
+    <picture>
+        <!-- Mobile-specific crop -->
+        <source media="(max-width: 576px)" 
+                srcset="assets/img/background.jpg">
+        <!-- Tablet-specific crop -->
+        <source media="(max-width: 992px)" 
+                srcset="assets/img/background.jpg">
+        <!-- Default desktop image -->
+        <source srcset="assets/img/background.jpg 400w, 
+                        assets/img/background.jpg 800w, 
+                        assets/img/background.jpg 1200w, 
+                        assets/img/background.jpg 2000w"
+                sizes="100vw">
+        <!-- Fallback for browsers that don't support picture -->
+        <img src="assets/img/background.jpg" alt="Nordic café interior with warm lighting" class="hero-img">
+    </picture>
+    <div class="hero-content">
+        <h1 class="fade-in">Welcome to our haven</h1>
+        <p class="slide-up">Where Nordic minimalism meets warm hospitality</p>
+        <a href="about.html" class="btn primary-btn slide-up">Discover Our Story</a>
+    </div>
+</div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2>A Taste of Scandinavia</h2>
+                <div class="intro-content">
+                    <div class="intro-text">
+                        <p>Nestled in the heart of the city, Asta Café brings you the essence of Nordic design and comfort. Our carefully crafted space invites you to slow down, connect, and savor the moment.</p>
+                        <p>From our signature cardamom buns to our meticulously brewed coffee, every detail is thoughtfully considered to create an experience that warms both body and soul.</p>
+                        <a href="about.html" class="text-link">Learn more about our philosophy →</a>
+                    </div>
+                    <div class="intro-image">
+    <img src="assets/img/latte.jpg" 
+         srcset="assets/img/latte-400w.jpg 400w, 
+                 assets/img/latte-800w.jpg 800w, 
+                 assets/img/latte.jpg 1200w" 
+         sizes="(max-width: 768px) 100vw, 50vw"
+         alt="Minimalist café interior with wooden tables and soft lighting" 
+         width="500" height="350" 
+         loading="lazy">
+</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured">
+            <div class="container">
+                <h2>Seasonal Favorites</h2>
+                <div class="featured-grid">
+    <div class="featured-item">
+        <img src="assets/img/latte.jpg" 
+             srcset="assets/img/latte.jpg 400w, 
+                     assets/img/latte.jpg 800w, 
+                     assets/img/latte.jpg 1200w" 
+             sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw"
+             alt="Barista pouring coffee into a ceramic mug" 
+             width="350" height="250" 
+             loading="lazy">
+        <h3>Specialty Coffee</h3>
+        <p>Ethically sourced and expertly brewed to perfection.</p>
+    </div>
+    <div class="featured-item">
+        <img src="assets/img/prashant.jpg" 
+             srcset="assets/img/prashant.jpg 400w, 
+                     assets/img/prashant.jpg 800w, 
+                     assets/img/prashant.jpg 1200w" 
+             sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw"
+             alt="Freshly baked cinnamon roll on a wooden plate" 
+             width="350" height="250" 
+             loading="lazy">
+        <h3>Artisanal Croissant</h3>
+        <p>Handcrafted daily using traditional Scandinavian recipes.</p>
+    </div>
+    <div class="featured-item">
+        <img src="assets/img/inside.jpg" 
+             srcset="assets/img/inside.jpg 400w, 
+                     assets/img/inside.jpg 800w, 
+                     assets/img/inside.jpg 1200w" 
+             sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw"
+             alt="Cozy café corner with books and plants" 
+             width="350" height="250" 
+             loading="lazy">
+        <h3>Tranquil Atmosphere</h3>
+        <p>A peaceful retreat from the hustle of everyday life.</p>
+    </div>
+</div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Join Us for a Cup</h2>
+                <p>We're open daily from 7am to 7pm. No reservations needed—just bring your curiosity and appetite for good conversation.</p>
+                <a href="contact.html" class="btn primary-btn">Find Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Asta Café</h3>
+                    <p>Where warmth meets minimalism</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/gallery.html">Gallery</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Visit Us</h4>
+                    <address>
+                        123 Serene Street<br>
+                        Cityville, CV 10101<br>
+                        <a href="tel:+15551234567">(555) 123-4567</a><br>
+                        <a href="mailto:hello@Astacafe.com">hello@Astacafe.com</a>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Asta Café. All rights reserved.</p>
+                <p>Thanks for dropping by!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
