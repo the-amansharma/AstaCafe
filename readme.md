@@ -16,34 +16,6 @@ php -S localhost:8000
 
 4. Open your browser and visit `http://localhost:8000`
 
-## Project Structure
-
-\`\`\`
-/
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── img/
-│   │   ├── (original images)
-│   │   ├── *-400w.jpg (small responsive images)
-│   │   ├── *-800w.jpg (medium responsive images)
-│   │   └── *-mobile.jpg (mobile-specific crops)
-│   ├── js/
-│   │   ├── main.js
-│   │   └── modules/
-│   │       ├── dark-mode.js
-│   │       ├── parallax.js
-│   │       ├── gallery.js
-│   │       ├── contact-form.js
-│   │       └── responsive-images.js
-│   └── php/
-│       └── mailer.php
-├── index.html
-├── about.html
-├── gallery.html
-├── contact.php
-└── README.md
-\`\`\`
 
 ## Features
 
