@@ -3,8 +3,8 @@
 A minimal-but-elegant multipage website for a Nordic-inspired café with warm sunset peach accents.
 
 <h3 align="center">
-    <a href="https://prepzone.vercel.app" target="_blank" rel="noopener noreferrer">🚀 Live At: https://the-amansharma.github.io/AstaCafe/</a>
-  </h3>
+    <a href="https://the-amansharma.github.io/AstaCafe/" target="_blank" rel="noopener noreferrer">🚀 Live At: Asta Cafe</a>
+</h3>
 
 
 ## Features
