@@ -2,19 +2,9 @@
 
 A minimal-but-elegant multipage website for a Nordic-inspired café with warm sunset peach accents.
 
-## Quick Start
-
-To run the website locally, you'll need PHP 7.4 or higher installed on your system.
-
-1. Clone or download this repository
-2. Navigate to the project directory in your terminal
-3. Start the PHP development server:
-
-\`\`\`bash
-php -S localhost:8000
-\`\`\`
-
-4. Open your browser and visit `http://localhost:8000`
+<h3 align="center">
+    <a href="https://prepzone.vercel.app" target="_blank" rel="noopener noreferrer">🚀 Live At: [Asta Cafe](https://the-amansharma.github.io/AstaCafe/)</a>
+  </h3>
 
 
 ## Features
